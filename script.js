@@ -125,7 +125,7 @@ function updateSummary() {
 
   if (remainingEl) {
     remainingEl.innerText = `₹${remaining}`;
-    remainingEl.style.color = remaining < 0 ? "red" : "green";
+    remainingEl.style.color = remaining < 0 ? "red" : "black";
   }
 }
 
